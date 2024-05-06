@@ -36,7 +36,7 @@ const users = [
         },
 ];
 
-const getUserNames = users.map((user) => {
-    return user.name;
+const getUserNames = users.map((users) => {
+    return users.name;
 });
 console.log(getUserNames);
